@@ -43,7 +43,7 @@ This proposal consists of 3 parts:
 {
 	"staking_period_identifier": {
 		"index": 100,
-		"name": "epoch",
+		"name": "epoch"
 	},
 	"start_height": 1,
 	"end_height": 100,
@@ -58,7 +58,7 @@ This proposal consists of 3 parts:
 ```json
 {
 	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
 	},
 	"role": "validator", 
 	"account": {
@@ -72,7 +72,7 @@ This proposal consists of 3 parts:
 	"identity": {
 		"name": "Figment",
 		"logo": "https://fiment.com/logo.png",
-		"email": "validator@figment.com"
+		"email": "validator@figment.com",
 		"website": "http://figment.com"
 	},
 	"metadata": {}
@@ -97,7 +97,7 @@ This proposal consists of 3 parts:
 {
     "staking_period": {
         "index": 100,
-        "name": "epoch",
+        "name": "epoch"
     },
      "staking_participants": [
         {
@@ -106,7 +106,7 @@ This proposal consists of 3 parts:
           "staking_participant": {
             "staking_participant_identifier": {
               "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
-            },
+            }
           },
           "account": {
             "account_index": 0,
@@ -124,7 +124,7 @@ This proposal consists of 3 parts:
           "staking_participant": {
             "staking_participant_identifier": {
               "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
-            },
+            }
           },
           "account": {
             "account_index": 0,
@@ -174,7 +174,7 @@ This proposal consists of 3 parts:
           "staking_participant": {
             "staking_participant_identifier": {
               "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
-            },
+            }
           },
           "account": {
             "account_index": 0,
@@ -192,7 +192,7 @@ This proposal consists of 3 parts:
           "staking_participant": {
             "staking_participant_identifier": {
               "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
-            },
+            }
           },
           "account": {
             "account_index": 0,
@@ -575,7 +575,7 @@ Response:
 		"name": "epoch"
 	},
 	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
 	},
     "accounts": [],
 	"stakes": [],
