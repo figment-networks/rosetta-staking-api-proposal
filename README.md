@@ -7,6 +7,10 @@ The goal here is to provide generic data structures which could provide us answe
 * who received rewards?
 * who was slashed?
 
+This proposal consists of 3 parts:
+* identifiers (similar to https://www.rosetta-api.org/docs/api_identifiers.html)
+* objects (similar to https://www.rosetta-api.org/docs/api_objects.html)
+* endpoints (similar to https://www.rosetta-api.org/docs/BlockApi.html)
 
 ## 1. Identifiers
 
