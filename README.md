@@ -18,10 +18,10 @@ This proposal consists of 3 parts:
 
 ```json
 {
-    "staking_period_identifier": {
-        "index": 100,
-        "name": "epoch"
-    }
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  }
 }
 ```
 
@@ -29,9 +29,9 @@ This proposal consists of 3 parts:
 
 ```json
 {
-    "staking_participant_identifier": {
-        "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-    }
+  "staking_participant_identifier": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  }
 }
 ```
 
@@ -41,15 +41,15 @@ This proposal consists of 3 parts:
 
 ```json
 {
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	},
-	"start_height": 1,
-	"end_height": 100,
-	"start_time": 12435456,
-	"end_time": 15435456,
-	"metadata": {}
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "start_height": 1,
+  "end_height": 100,
+  "start_time": 12435456,
+  "end_time": 15435456,
+  "metadata": {}
 }
 ```
 
@@ -57,25 +57,25 @@ This proposal consists of 3 parts:
 
 ```json
 {
-	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	},
-	"role": "validator", 
-	"account": {
-        "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-        "sub_account": {
-            "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-            "metadata": {}
-        },
-        "metadata": {}
-	},
-	"identity": {
-		"name": "Figment",
-		"logo": "https://fiment.com/logo.png",
-		"email": "validator@figment.com",
-		"website": "http://figment.com"
-	},
-	"metadata": {}
+  "staking_participant_identifier": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  },
+  "role": "validator",
+  "account": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+    "sub_account": {
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "metadata": {}
+    },
+    "metadata": {}
+  },
+  "identity": {
+    "name": "Figment",
+    "logo": "https://fiment.com/logo.png",
+    "email": "validator@figment.com",
+    "website": "http://figment.com"
+  },
+  "metadata": {}
 }
 ```
 
@@ -83,11 +83,11 @@ This proposal consists of 3 parts:
 
 ```json
 {
-	"name": "Figment",
-	"logo": "https://fiment.com/logo.png",
-	"email": "validator@figment.com",
-	"website": "http://figment.com",
-	"metadata": {}
+  "name": "Figment",
+  "logo": "https://fiment.com/logo.png",
+  "email": "validator@figment.com",
+  "website": "http://figment.com",
+  "metadata": {}
 }
 ```
 
@@ -95,67 +95,67 @@ This proposal consists of 3 parts:
 
 ```json
 {
-    "staking_period": {
-        "index": 100,
-        "name": "epoch"
-    },
-     "staking_participants": [
-        {
-          "staking_participant_index": 0,
-          "staking_activity_role": "operator",
-          "staking_participant": {
-            "staking_participant_identifier": {
-              "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
-            }
-          },
-          "account": {
-            "account_index": 0,
-            "account_identifier": {
-              "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-              "sub_account": {},
-              "metadata": {}
-            }
-          },
-          "metadata": {}
-        },
-        {
-          "staking_participant_index": 1,
-          "staking_activity_role": "staker",
-          "staking_participant": {
-            "staking_participant_identifier": {
-              "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
-            }
-          },
-          "account": {
-            "account_index": 0,
-            "account_identifier": {
-              "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-              "sub_account": {},
-              "metadata": {}
-            }
-          },
+  "staking_period": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "staking_participants": [
+    {
+      "staking_participant_index": 0,
+      "staking_activity_role": "operator",
+      "staking_participant": {
+        "staking_participant_identifier": {
+          "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
+        }
+      },
+      "account": {
+        "account_index": 0,
+        "account_identifier": {
+          "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+          "sub_account": {},
           "metadata": {}
         }
-    ],
-    "amount": {
-      "value": "1238089899992",
-      "currency": {
-          "symbol": "BTC",
-          "decimals": 8,
-          "metadata": {
-              "Issuer": "Satoshi"
-          }
       },
       "metadata": {}
     },
-    "related_transactions": [
-        {
-            "transaction_identifier": {
-                "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
-            }
+    {
+      "staking_participant_index": 1,
+      "staking_activity_role": "staker",
+      "staking_participant": {
+        "staking_participant_identifier": {
+          "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
         }
-    ],
+      },
+      "account": {
+        "account_index": 0,
+        "account_identifier": {
+          "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+          "sub_account": {},
+          "metadata": {}
+        }
+      },
+      "metadata": {}
+    }
+  ],
+  "amount": {
+    "value": "1238089899992",
+    "currency": {
+      "symbol": "BTC",
+      "decimals": 8,
+      "metadata": {
+        "Issuer": "Satoshi"
+      }
+    },
     "metadata": {}
+  },
+  "related_transactions": [
+    {
+      "transaction_identifier": {
+        "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
+      }
+    }
+  ],
+  "metadata": {}
 }
 ```
 
@@ -163,67 +163,67 @@ This proposal consists of 3 parts:
 
 ```json
 {
-	"staking_period": {
-		"index": 100,
-		"name": "epoch"
-	},
-	"staking_participants": [
-        {
-          "staking_participant_index": 0,
-          "staking_activity_role": "operator",
-          "staking_participant": {
-            "staking_participant_identifier": {
-              "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
-            }
-          },
-          "account": {
-            "account_index": 0,
-            "account_identifier": {
-              "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-              "sub_account": {},
-              "metadata": {}
-            }
-          },
-          "metadata": {}
-        },
-        {
-          "staking_participant_index": 1,
-          "staking_activity_role": "staker",
-          "staking_participant": {
-            "staking_participant_identifier": {
-              "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
-            }
-          },
-          "account": {
-            "account_index": 0,
-            "account_identifier": {
-              "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-              "sub_account": {},
-              "metadata": {}
-            }
-          },
+  "staking_period": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "staking_participants": [
+    {
+      "staking_participant_index": 0,
+      "staking_activity_role": "operator",
+      "staking_participant": {
+        "staking_participant_identifier": {
+          "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
+        }
+      },
+      "account": {
+        "account_index": 0,
+        "account_identifier": {
+          "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+          "sub_account": {},
           "metadata": {}
         }
-    ],
-	"amount": {
-      "value": "1238089899992",
-      "currency": {
-          "symbol": "BTC",
-          "decimals": 8,
-          "metadata": {
-              "Issuer": "Satoshi"
-          }
       },
       "metadata": {}
     },
-    "related_transactions": [
-        {
-            "transaction_identifier": {
-                "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
-            }
+    {
+      "staking_participant_index": 1,
+      "staking_activity_role": "staker",
+      "staking_participant": {
+        "staking_participant_identifier": {
+          "address": "12zTG1vmvTqS3CP32TaHyAHWDGwDj334GpNCWRCDCPVGwXf4"
         }
-    ],
-	"metadata": {}
+      },
+      "account": {
+        "account_index": 0,
+        "account_identifier": {
+          "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+          "sub_account": {},
+          "metadata": {}
+        }
+      },
+      "metadata": {}
+    }
+  ],
+  "amount": {
+    "value": "1238089899992",
+    "currency": {
+      "symbol": "BTC",
+      "decimals": 8,
+      "metadata": {
+        "Issuer": "Satoshi"
+      }
+    },
+    "metadata": {}
+  },
+  "related_transactions": [
+    {
+      "transaction_identifier": {
+        "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
+      }
+    }
+  ],
+  "metadata": {}
 }
 ```
 
@@ -231,41 +231,41 @@ This proposal consists of 3 parts:
 
 ```json
 {
-	"reward_identifier": {
-		"hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	},
-	"type": "staking_reward",
-	"staking_period": {
-		"index": 100,
-		"name": "epoch"
-	},
-	"account": {
-        "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-        "sub_account": {
-            "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-            "metadata": {}
-        },
-        "metadata": {}
-	},
-	"amount": {
-      "value": "1238089899992",
-      "currency": {
-          "symbol": "BTC",
-          "decimals": 8,
-          "metadata": {
-              "Issuer": "Satoshi"
-          }
-      },
+  "reward_identifier": {
+    "hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  },
+  "type": "staking_reward",
+  "staking_period": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "account": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+    "sub_account": {
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
       "metadata": {}
     },
-	"related_transactions": [
-		{
-			"transaction_identifier": {
-				"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
-			}
-		}
-	],
-	"metadata": {}
+    "metadata": {}
+  },
+  "amount": {
+    "value": "1238089899992",
+    "currency": {
+      "symbol": "BTC",
+      "decimals": 8,
+      "metadata": {
+        "Issuer": "Satoshi"
+      }
+    },
+    "metadata": {}
+  },
+  "related_transactions": [
+    {
+      "transaction_identifier": {
+        "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
+      }
+    }
+  ],
+  "metadata": {}
 }
 ```
 
@@ -273,41 +273,41 @@ This proposal consists of 3 parts:
 
 ```json
 {
-	"slash_identifier": {
-		"hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	},
-	"type": "offline",
-	"staking_period": {
-		"index": 100,
-		"name": "epoch"
-	},
-	"account": {
+  "slash_identifier": {
+    "hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  },
+  "type": "offline",
+  "staking_period": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "account": {
     "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
     "sub_account": {
-        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-        "metadata": {}
-    },
-    "metadata": {}
-	},
-	"amount": {
-      "value": "1238089899992",
-      "currency": {
-          "symbol": "BTC",
-          "decimals": 8,
-          "metadata": {
-              "Issuer": "Satoshi"
-          }
-      },
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
       "metadata": {}
     },
-    "related_transactions": [
-        {
-            "transaction_identifier": {
-                "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
-            }
-        }
-    ],
     "metadata": {}
+  },
+  "amount": {
+    "value": "1238089899992",
+    "currency": {
+      "symbol": "BTC",
+      "decimals": 8,
+      "metadata": {
+        "Issuer": "Satoshi"
+      }
+    },
+    "metadata": {}
+  },
+  "related_transactions": [
+    {
+      "transaction_identifier": {
+        "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
+      }
+    }
+  ],
+  "metadata": {}
 }
 ```
 
@@ -319,20 +319,20 @@ Request:
 
 ```json
 {
-	"network_identifier": {
-      "blockchain": "bitcoin",
-      "network": "mainnet",
-      "sub_network_identifier": {
-          "network": "shard 1",
-          "metadata": {
-              "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
-          }
+  "network_identifier": {
+    "blockchain": "bitcoin",
+    "network": "mainnet",
+    "sub_network_identifier": {
+      "network": "shard 1",
+      "metadata": {
+        "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
       }
-    },
-    "staking_period_identifier": {
-        "index": 100,
-        "name": "epoch"
     }
+  },
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  }
 }
 ```
 
@@ -340,16 +340,16 @@ Response:
 
 ```json
 {
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	},
-	"start_height": 1,
-	"end_time": 100,
-	"start_timestamp": 1582272577,
-	"end_timestamp": 1582272577,
-    "total_stake": 130303030,
-	"metadata": {}
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "start_height": 1,
+  "end_time": 100,
+  "start_timestamp": 1582272577,
+  "end_timestamp": 1582272577,
+  "total_stake": 130303030,
+  "metadata": {}
 }
 ```
 
@@ -359,19 +359,19 @@ Request:
 
 ```json
 {
-	"network_identifier": {
-      "blockchain": "bitcoin",
-      "network": "mainnet",
-      "sub_network_identifier": {
-          "network": "shard 1",
-          "metadata": {
-              "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
-          }
+  "network_identifier": {
+    "blockchain": "bitcoin",
+    "network": "mainnet",
+    "sub_network_identifier": {
+      "network": "shard 1",
+      "metadata": {
+        "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
       }
-    },
-	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	}
+    }
+  },
+  "staking_participant_identifier": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  }
 }
 ```
 
@@ -379,25 +379,25 @@ Response:
 
 ```json
 {
-	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	},
-	"role": "validator",
-	"account": {
+  "staking_participant_identifier": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  },
+  "role": "validator",
+  "account": {
     "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
     "sub_account": {
-        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-        "metadata": {}
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "metadata": {}
     },
     "metadata": {}
-	},
-	"identity": {
-		"name": "Figment",
-		"logo": "https://fiment.com/logo.png",
-		"email": "validator@figment.com",
-		"website": "http://figment.com"
-	},
-	"metadata": {}
+  },
+  "identity": {
+    "name": "Figment",
+    "logo": "https://fiment.com/logo.png",
+    "email": "validator@figment.com",
+    "website": "http://figment.com"
+  },
+  "metadata": {}
 }
 ```
 
@@ -407,19 +407,19 @@ Request:
 
 ```json
 {
-	"network_identifier": {
-      "blockchain": "bitcoin",
-      "network": "mainnet",
-      "sub_network_identifier": {
-          "network": "shard 1",
-          "metadata": {
-              "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
-          }
+  "network_identifier": {
+    "blockchain": "bitcoin",
+    "network": "mainnet",
+    "sub_network_identifier": {
+      "network": "shard 1",
+      "metadata": {
+        "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
       }
-    },
-	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	}
+    }
+  },
+  "staking_participant_identifier": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  }
 }
 ```
 
@@ -427,19 +427,19 @@ Response:
 
 ```json
 {
-	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	},
-	"account": {
-        "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-        "sub_account": {
-            "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-            "metadata": {}
-        },
-        "metadata": {}
-	},
-	"identity": {},
-	"metadata": {}
+  "staking_participant_identifier": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  },
+  "account": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+    "sub_account": {
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "metadata": {}
+    },
+    "metadata": {}
+  },
+  "identity": {},
+  "metadata": {}
 }
 ```
 
@@ -449,23 +449,23 @@ Request:
 
 ```json
 {
-	"network_identifier": {
-      "blockchain": "bitcoin",
-      "network": "mainnet",
-      "sub_network_identifier": {
-          "network": "shard 1",
-          "metadata": {
-              "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
-          }
+  "network_identifier": {
+    "blockchain": "bitcoin",
+    "network": "mainnet",
+    "sub_network_identifier": {
+      "network": "shard 1",
+      "metadata": {
+        "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
       }
-    },
-	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	},
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	}
+    }
+  },
+  "staking_participant_identifier": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  },
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  }
 }
 ```
 
@@ -473,21 +473,21 @@ Response:
 
 ```json
 {
-	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	},
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	},
-	"online": true,
-	"commission": 10000,
-    "accounts": [],
-	"stakes": [],
-	"unstakes": [],
-    "rewards": [],
-    "slashes": [],
-	"metadata": {}
+  "staking_participant_identifier": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  },
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "online": true,
+  "commission": 10000,
+  "accounts": [],
+  "stakes": [],
+  "unstakes": [],
+  "rewards": [],
+  "slashes": [],
+  "metadata": {}
 }
 ```
 
@@ -497,20 +497,20 @@ Request:
 
 ```json
 {
-	"network_identifier": {
-      "blockchain": "bitcoin",
-      "network": "mainnet",
-      "sub_network_identifier": {
-          "network": "shard 1",
-          "metadata": {
-              "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
-          }
+  "network_identifier": {
+    "blockchain": "bitcoin",
+    "network": "mainnet",
+    "sub_network_identifier": {
+      "network": "shard 1",
+      "metadata": {
+        "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
       }
-    },
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	}
+    }
+  },
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  }
 }
 ```
 
@@ -546,23 +546,23 @@ Request:
 
 ```json
 {
-	"network_identifier": {
-      "blockchain": "bitcoin",
-      "network": "mainnet",
-      "sub_network_identifier": {
-          "network": "shard 1",
-          "metadata": {
-              "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
-          }
+  "network_identifier": {
+    "blockchain": "bitcoin",
+    "network": "mainnet",
+    "sub_network_identifier": {
+      "network": "shard 1",
+      "metadata": {
+        "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
       }
-    },
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	},
-	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	}
+    }
+  },
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "staking_participant_identifier": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  }
 }
 ```
 
@@ -570,19 +570,19 @@ Response:
 
 ```json
 {
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	},
-	"staking_participant_identifier": {
-		"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-	},
-    "accounts": [],
-	"stakes": [],
-    "unstakes": [],
-    "rewards": [],
-    "slashes": [],
-	"metadata": {}
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "staking_participant_identifier": {
+    "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+  },
+  "accounts": [],
+  "stakes": [],
+  "unstakes": [],
+  "rewards": [],
+  "slashes": [],
+  "metadata": {}
 }
 ```
 
@@ -592,20 +592,20 @@ Request:
 
 ```json
 {
-	"network_identifier": {
-      "blockchain": "bitcoin",
-      "network": "mainnet",
-      "sub_network_identifier": {
-          "network": "shard 1",
-          "metadata": {
-              "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
-          }
+  "network_identifier": {
+    "blockchain": "bitcoin",
+    "network": "mainnet",
+    "sub_network_identifier": {
+      "network": "shard 1",
+      "metadata": {
+        "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
       }
-    },
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	}
+    }
+  },
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  }
 }
 ```
 
@@ -613,89 +613,89 @@ Response:
 
 ```json
 {
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	},
-	"rewards": [
-		{
-            "reward_index": 0,
-        	"reward_identifier": {
-        		"hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-        	},
-        	"type": "staking_reward",
-        	"staking_period": {
-        		"index": 100,
-        		"name": "epoch"
-        	},
-        	"account": {
-                "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-                "sub_account": {
-                    "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-                    "metadata": {}
-                },
-                "metadata": {}
-        	},
-        	"amount": {
-              "value": "1238089899992",
-              "currency": {
-                  "symbol": "BTC",
-                  "decimals": 8,
-                  "metadata": {
-                      "Issuer": "Satoshi"
-                  }
-              },
-              "metadata": {}
-            },
-        	"related_transactions": [
-        		{
-        			"transaction_identifier": {
-        				"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
-        			}
-        		}
-        	],
-        	"metadata": {}
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "rewards": [
+    {
+      "reward_index": 0,
+      "reward_identifier": {
+        "hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+      },
+      "type": "staking_reward",
+      "staking_period": {
+        "index": 100,
+        "name": "epoch"
+      },
+      "account": {
+        "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+        "sub_account": {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "metadata": {}
         },
-		{
-            "reward_index": 1,
-        	"reward_identifier": {
-        		"hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-        	},
-        	"type": "staking_reward",
-        	"staking_period": {
-        		"index": 100,
-        		"name": "epoch"
-        	},
-        	"account": {
-                "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-                "sub_account": {
-                    "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-                    "metadata": {}
-                },
-                "metadata": {}
-        	},
-        	"amount": {
-              "value": "1238089899992",
-              "currency": {
-                  "symbol": "BTC",
-                  "decimals": 8,
-                  "metadata": {
-                      "Issuer": "Satoshi"
-                  }
-              },
-              "metadata": {}
-            },
-        	"related_transactions": [
-        		{
-        			"transaction_identifier": {
-        				"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
-        			}
-        		}
-        	],
-        	"metadata": {}
+        "metadata": {}
+      },
+      "amount": {
+        "value": "1238089899992",
+        "currency": {
+          "symbol": "BTC",
+          "decimals": 8,
+          "metadata": {
+            "Issuer": "Satoshi"
+          }
+        },
+        "metadata": {}
+      },
+      "related_transactions": [
+        {
+          "transaction_identifier": {
+            "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
+          }
         }
-	],
-	"metadata": {}
+      ],
+      "metadata": {}
+    },
+    {
+      "reward_index": 1,
+      "reward_identifier": {
+        "hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+      },
+      "type": "staking_reward",
+      "staking_period": {
+        "index": 100,
+        "name": "epoch"
+      },
+      "account": {
+        "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+        "sub_account": {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "metadata": {}
+        },
+        "metadata": {}
+      },
+      "amount": {
+        "value": "1238089899992",
+        "currency": {
+          "symbol": "BTC",
+          "decimals": 8,
+          "metadata": {
+            "Issuer": "Satoshi"
+          }
+        },
+        "metadata": {}
+      },
+      "related_transactions": [
+        {
+          "transaction_identifier": {
+            "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
+          }
+        }
+      ],
+      "metadata": {}
+    }
+  ],
+  "metadata": {}
 }
 ```
 
@@ -705,20 +705,20 @@ Request:
 
 ```json
 {
-	"network_identifier": {
-      "blockchain": "bitcoin",
-      "network": "mainnet",
-      "sub_network_identifier": {
-          "network": "shard 1",
-          "metadata": {
-              "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
-          }
+  "network_identifier": {
+    "blockchain": "bitcoin",
+    "network": "mainnet",
+    "sub_network_identifier": {
+      "network": "shard 1",
+      "metadata": {
+        "producer": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"
       }
-    },
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	}
+    }
+  },
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  }
 }
 ```
 
@@ -726,88 +726,88 @@ Response:
 
 ```json
 {
-	"staking_period_identifier": {
-		"index": 100,
-		"name": "epoch"
-	},
-	"slashes": [
-		{
-            "slash_index": 0,
-        	"slash_identifier": {
-        		"hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-        	},
-        	"type": "offline",
-        	"staking_period": {
-        		"index": 100,
-        		"name": "epoch"
-        	},
-        	"account": {
-            "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-            "sub_account": {
-                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-                "metadata": {}
-            },
-            "metadata": {}
-        	},
-        	"amount": {
-              "value": "1238089899992",
-              "currency": {
-                  "symbol": "BTC",
-                  "decimals": 8,
-                  "metadata": {
-                      "Issuer": "Satoshi"
-                  }
-              },
-              "metadata": {}
-            },
-            "related_transactions": [
-                {
-                    "transaction_identifier": {
-                        "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
-                    }
-                }
-            ],
-            "metadata": {}
+  "staking_period_identifier": {
+    "index": 100,
+    "name": "epoch"
+  },
+  "slashes": [
+    {
+      "slash_index": 0,
+      "slash_identifier": {
+        "hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+      },
+      "type": "offline",
+      "staking_period": {
+        "index": 100,
+        "name": "epoch"
+      },
+      "account": {
+        "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+        "sub_account": {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "metadata": {}
         },
+        "metadata": {}
+      },
+      "amount": {
+        "value": "1238089899992",
+        "currency": {
+          "symbol": "BTC",
+          "decimals": 8,
+          "metadata": {
+            "Issuer": "Satoshi"
+          }
+        },
+        "metadata": {}
+      },
+      "related_transactions": [
         {
-            "slash_index": 1,
-        	"slash_identifier": {
-        		"hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
-        	},
-        	"type": "offline",
-        	"staking_period": {
-        		"index": 100,
-        		"name": "epoch"
-        	},
-        	"account": {
-            "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
-            "sub_account": {
-                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-                "metadata": {}
-            },
-            "metadata": {}
-        	},
-        	"amount": {
-              "value": "1238089899992",
-              "currency": {
-                  "symbol": "BTC",
-                  "decimals": 8,
-                  "metadata": {
-                      "Issuer": "Satoshi"
-                  }
-              },
-              "metadata": {}
-            },
-            "related_transactions": [
-                {
-                    "transaction_identifier": {
-                        "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
-                    }
-                }
-            ],
-            "metadata": {}
+          "transaction_identifier": {
+            "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
+          }
         }
-	],
-	"metadata": {}
+      ],
+      "metadata": {}
+    },
+    {
+      "slash_index": 1,
+      "slash_identifier": {
+        "hash": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61"
+      },
+      "type": "offline",
+      "staking_period": {
+        "index": 100,
+        "name": "epoch"
+      },
+      "account": {
+        "address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",
+        "sub_account": {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "metadata": {}
+        },
+        "metadata": {}
+      },
+      "amount": {
+        "value": "1238089899992",
+        "currency": {
+          "symbol": "BTC",
+          "decimals": 8,
+          "metadata": {
+            "Issuer": "Satoshi"
+          }
+        },
+        "metadata": {}
+      },
+      "related_transactions": [
+        {
+          "transaction_identifier": {
+            "hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"
+          }
+        }
+      ],
+      "metadata": {}
+    }
+  ],
+  "metadata": {}
 }
 ```
